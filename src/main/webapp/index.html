@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Bienvenido</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Llamadas al servlet</h1>
+        <p><a href="Bienvenida">Llamada por GET</a></p>
+        <p><a href="Bienvenida?param1=hola&param2=mundo">Llamada por GET con par&aacute;metros</a></p>
+        <form action="Bienvenida" method="post">
+            <label for="nb">Nombre</label>
+            <input type="text" name="nombre" id="nb"><br>
+             <label for="ap">Apellidos</label>
+            <input type="text" name="apellidos" id="ap"><br>
+            <input type="submit" name="btnenviar" value="Servidor"> 
+            <input type="reset" name="btnLimpiar" value="Limpiar">
+        </form>
+        <p><a href="HTML/Formulario.html">Formulario</a></p>
+    </body>
+</html>
