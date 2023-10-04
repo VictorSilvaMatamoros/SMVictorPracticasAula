@@ -1,0 +1,52 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #333;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-top: 20px;
+}
+
+/* Estilo para los elementos de formulario */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los mensajes de retroalimentación */
+p {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilo para el resultado final */
+.result {
+    font-weight: bold;
+    color: #28a745;
+    font-size: 20px;
+    margin-top: 20px;
+}

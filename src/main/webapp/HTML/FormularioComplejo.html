@@ -1,0 +1,108 @@
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="../CSS/estilo.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Complejo</title>
+    </head>
+    <body>
+
+        <h1>FORMULARIO COMPLEJO</h1>
+
+        <div class="container">
+            <form action="../FormularioComplejo" method="post">
+                <div class="section">
+                    <h2>Datos Personales</h2>
+
+
+                    <label for="uname">Usuario:</label><br>
+                    <input type="text" id="uname" name="uname"><br>
+                    <label for="/action_page.php"></label><br>
+                    <label for="pname">Contraseña:</label><br>
+                    <input type="password" id="pname" name="pname"><br><br>
+
+                    <label for="edades">Edad:</label>
+                    <select id="edades" name="edades">
+                        <option value="joven">Mas de 18</option>
+                        <option value="joven adulto">De 20 a 25</option>
+                        <option value="adulto">De 30 a 35</option>
+                        <option value="adulto maduro">Mas de 40</option>
+                    </select>
+                    
+
+                </div>
+
+                <div class="section">
+                    <h3>Otros datos</h3>
+
+
+                    <label for="aficiones">Aficiones (uno o varios,CTRL):</label>
+                    <select id="aficiones" name="aficiones" multiple>
+                        <option value="Deporte">Deporte</option>
+                        <option value="Cine">Cine</option>
+                        <option value="Leer" selected>Leer</option>
+                        <option value="Pasear">Pasear</option>
+                    </select>
+                    
+                    <br>
+
+
+                    <p>Estado Civil:</p>
+                    <input type="radio" id="soltero" name="estadoCivil" value="soltero">
+                    <label for="soltero">Soltero/a</label>
+
+                    <input type="radio" id="casado" name="estadoCivil" value="casado">
+                    <label for="casado">Casado/a</label>
+
+                    <input type="radio" id="viudo" name="estadoCivil" value="viudo">
+                    <label for="viudo">Viudo/a</label>
+
+                    <input type="radio" id="divorciado" name="estadoCivil" value="divorciado">
+                    <label for="divorciado">Divorciado/a</label>
+                    <br>
+
+                    <label for="comentarios">Comentarios:</label>
+
+                    <textarea name="message" rows="5" cols="40"></textarea>
+                    <br><br>
+                    
+
+                </div>
+
+
+                <div class="rest-of-code">
+                    <h3>Medios tecnologicos</h3>
+                    <p>¿Dispone de internet?</p>
+
+                    <input type="radio" id="si" name="internet" value="si">
+                    <label for="radio">si</label>
+                    <input type="radio" id="no" name="internet" value="no">
+                    <label for="radio">no</label>
+
+
+
+                    <label for="SO">Escoge un sistema operativo</label>
+                    <select id="SO" name="SO">
+                        <option value="Linux">Linux</option>
+                        <option value="Windows">Windows</option>
+                        <option value="Solaris" selected>Solaris</option>
+                        <option value="Macintosh">Macintosh</option>
+                    </select>
+                  
+
+                </div>
+                <div>
+                    <input type="hidden" name="oculto" value="32">
+                    <input type="submit" name="Enviar">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

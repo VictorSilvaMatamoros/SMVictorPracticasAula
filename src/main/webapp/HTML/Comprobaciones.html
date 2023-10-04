@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Información</title>
+    <link rel="stylesheet" type="text/css" href="comprobaciones.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Información Personal</h3>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br>
+
+        <p>Sexo:</p>
+
+         <input type="radio" id="Hombre" name="sexo" value="Hombre">
+         <label for="Hombre">Hombre</label><br>
+         <input type="radio" id="Mujer" name="sexo" value="Mujer">
+         <label for="Mujer">Mujer</label><br>
+
+
+        <h3>Datos de Acceso</h3>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario"><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <h3>Información General</h3>
+
+        <p>Preferencias:</p>
+
+
+        <input type="checkbox" id="Deportes" name="preferencias" value="Deportes" style="vertical-align: middle;">
+        <label for="Deportes">Deportes</label><br>
+        <input type="checkbox" id="Lectura" name="preferencias" value="Lectura" style="vertical-align: middle;">
+        <label for="Lectura">Lectura</label><br>
+        <input type="checkbox" id="Cine" name="preferencias" value="Cine" style="vertical-align: middle;">
+        <label for="Cine">Cine</label><br>
+        <input type="checkbox" id="Viajes" name="preferencias" value="Viajes" style="vertical-align: middle;">
+        <label for="Viajes">Viajes</label><br>
+        <button id="enviar">Enviar</button>
+        <button id="limpiar">Limpiar</button>
+    </div>
+    <script src="comprobaciones.js"></script>
+</body>
+
+</html>

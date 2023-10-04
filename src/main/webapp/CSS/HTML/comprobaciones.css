@@ -1,0 +1,17 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* Estilo para centrar y aplicar bordes */
+/* Estilos para el contenedor */
+.container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espacio interior */
+    border: 2px solid blue; /* Bordes azules */
+}
+
+/* Estilos para centrar los botones */
+button {
+    margin-top: 10px; /* Espacio superior para los botones */
+}
